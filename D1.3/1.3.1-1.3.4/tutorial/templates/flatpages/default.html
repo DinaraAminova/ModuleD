@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>{% block title %} {% endblock title%}</title>
+</head>
+<body>
+    <a href="/contacts">Contacts</a>
+    <a href="/about">About</a>
+    <a href="/news">News</a>
+    <a href="/vacancy">Vacancy</a>
+    <a href="/pictures">Pictures</a><hr>
+
+    {% block content %}
+    {% endblock content  %}
+</body>
+</html>
